@@ -38,8 +38,8 @@ void main() {
             }
         }
         if(cur.contains("42")) {
-            if(speed > 1) {
-                speed -= 1;
+            if(speed-50 > 0) {
+                speed -= 50;
                 System.out.println("SPEED BOOST!!!");
             }
         }
