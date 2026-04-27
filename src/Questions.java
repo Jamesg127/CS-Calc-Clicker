@@ -7,10 +7,12 @@ public class Questions {
 
     public Questions() {
         questions.put("""
-                Q1
-                (1) True
-                (2) False
-                """, 2);
+                Which of the following finds the length of an ArrayList?
+                (1) arr.length
+                (2) arr.length()
+                (3) arr.size
+                (4) arr.size()
+                """, 4);
         questions.put("""
                 What does this statement evaluate to? TRUE || FALSE && TRUE
                 (1) True
