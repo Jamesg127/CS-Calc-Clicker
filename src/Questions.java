@@ -89,7 +89,7 @@ public class Questions {
                 (3) {2, 4, 5, 6,7, 9, 8, 1, 3}
                 (4) {1, 2, 4, 5, 7, 9, 8, 6, 3}
                 """, 1);
-        questions.put"""
+        questions.put("""
                 public class Date
 {
 	private int day;
@@ -270,6 +270,14 @@ What is the value of the call Factorial(5) ?
                 (3) 100
                 (4) 720
                 """, 1);
+		questions.put("""
+				Which of the following finds a random integer between 1 and 10
+				(1) Math.random(1, 10);
+				(2) Math.random() * 10) + 1;
+				(3) (int) (Math.random() * 10) + 1);
+				(4) (int) (Math.random() * 1) + 10);
+				""", 3);
+
 
 
 
