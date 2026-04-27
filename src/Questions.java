@@ -11,6 +11,12 @@ public class Questions {
                 (1) True
                 (2) False
                 """, 2);
+        questions.put("""
+                What does this statement evaluate to? TRUE || FALSE && TRUE
+                (1) True
+                (2) False
+                """, 2)
+
     }
 
     public Map.Entry<String, Integer> getQuestion() {
