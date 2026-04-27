@@ -277,6 +277,49 @@ What is the value of the call Factorial(5) ?
 				(3) (int) (Math.random() * 10) + 1);
 				(4) (int) (Math.random() * 1) + 10);
 				""", 3);
+		questions.put("""
+				What is the value of ((3 + 5 == 9) || (9 == 9/1) && False) ?
+				(1) True
+				(2) False
+				""", 2);
+		questions.put("""
+				 How many iterations of a binary search algorithm are required to find the integer 5 in the list: {2, 3, 5, 6, 7, 10, 11, 16, 17, 23, 34}
+				(1) 1
+				(2) 6
+				(3) 7
+				(4) 4
+				(5) 2
+				""", 5);
+		questions.put("""
+				What is the output of this code segment?
+
+int number = 2;
+for(int i = 0; i <= 5; i+= 2)
+    if(number >= i){
+	for(int j = 4; j < i; j--){
+	    number++;
+	}
+    }
+    else{
+	number -= 2
+    }
+}
+				(1) 0
+				(2) 3
+				(3) 2.5
+				(4) 3
+				""", 1);
+		questions.put("""
+				What does this evaluate to?  0 + 5 % 3 / 20
+				(1) 2
+				(2) 1
+				(3) 20
+				(4) 0
+				""", 4);
+
+
+
+
 
 
 
