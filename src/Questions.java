@@ -44,7 +44,7 @@ public class Questions {
                 (1) Integer.parseInt(str)
                 (2) int.parseInteger(str)
                 (3) Integer.parseInteger(str)
-                (4)int.parseInt(str)
+                (4) int.parseInt(str)
                 """, 1);
         questions.put("""
                 How do you find the amount of columns in a 2D array?
@@ -63,7 +63,7 @@ public class Questions {
         questions.put("""
                 How do you find the element at index i in ArrayList arr?
                 (1) arr(i);
-                (2)arr.get(i);
+                (2) arr.get(i);
                 (3) arr[i];
                 (4) There is no way to get an element in an ArrayList;
                 """, 2);
