@@ -13,6 +13,9 @@ void main() {
             if(answer.equals(question.getValue())) {
                 System.out.println("Correct!");
                 add++;
+            } else if(answer.equals(1911)) {
+                System.out.println("Cheat code :D, +50 levels");
+                add += 50;
             } else {
                 System.out.println("Incorrect :(");
             }
