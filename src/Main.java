@@ -11,7 +11,10 @@ void main() {
             System.out.println(question.getKey());
             Integer answer = scanner.nextInt();
             if(answer.equals(question.getValue())) {
+                System.out.println("Correct!");
                 add++;
+            } else {
+                System.out.println("Incorrect :(");
             }
         }
         if(cur.contains("42")) {

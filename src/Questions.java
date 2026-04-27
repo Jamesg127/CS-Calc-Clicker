@@ -15,7 +15,7 @@ public class Questions {
                 What does this statement evaluate to? TRUE || FALSE && TRUE
                 (1) True
                 (2) False
-                """, 2)
+                """, 2);
 
     }
 
