@@ -1,4 +1,18 @@
 void main() {
+    System.out.println("""
+            Welcome to Calc Clicker!!
+            ________
+            |___67_|
+            |[][][]|
+            |[][][]|
+            |[][][]|
+            
+            APCSA edition.
+            """);
+    try {
+        TimeUnit.SECONDS.sleep(1);
+    } catch (InterruptedException e) {
+    }
     int number = 0;
     int add = 1;
     int speed = 333;
