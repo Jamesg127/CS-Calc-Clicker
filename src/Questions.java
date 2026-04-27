@@ -52,7 +52,7 @@ public class Questions {
                 (2) arr[ i ].length()
                 (3) arr[ i ].length
                 (4) arr.getCols()
-                """, 2);
+                """, 3);
         questions.put("""
                 What is 2,147,483,647 equivalent to?
                 (1) 2^31

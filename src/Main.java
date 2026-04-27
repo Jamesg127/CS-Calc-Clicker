@@ -17,7 +17,10 @@ void main() {
                 System.out.println("Cheat code :D, +50 levels");
                 add += 50;
             } else {
-                System.out.println("Incorrect :(");
+                System.out.println("Incorrect :(\nThe correct answer was "+question.getValue()+".");
+                System.out.println("Press Enter to continue");
+                scanner.nextLine();
+                scanner.nextLine();
             }
         }
         if(cur.contains("42")) {
