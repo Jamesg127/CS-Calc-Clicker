@@ -17,4 +17,4 @@ Answer the questions and enjoy the fun!
 
 ## Rules
 Every time 67 appears in the current number, you must answer a question.
-If you get it right, you add more each time. If 42 (6 * 7) appears inside the number, you get a speed boost.
+If you get it right, you add more each time. (First is 67 + 2, Second is 167 + 3) If 42 (6 * 7) appears inside the number, you get a speed boost.
