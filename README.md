@@ -1,3 +1,5 @@
+<img width="6912" height="3456" alt="Calc Clicker" src="https://github.com/user-attachments/assets/7d6b0c69-ecdf-47c4-badf-30d6b3c7680d" />
+
 # Calc Clicker
 APCSA edition
 
@@ -10,11 +12,16 @@ even more helpful form. The classic game includes APCSA questions you must answe
 every time you level up.
 
 ## Installation
-Clone the repository and run it with Java.
+```bash
+git clone https://github.com/Jamesg127/CS-Calc-Clicker.git
+```
 
 ## Usage
+```bash
+java CS-Calc-Clicker/src/*.java
+```
 Answer the questions and enjoy the fun!
 
 ## Rules
 Every time 67 appears in the current number, you must answer a question.
-If you get it right, you add more each time. (First is 67 + 2, Second is 167 + 3) If 42 (6 * 7) appears inside the number, you get a speed boost.
+If you get it right, you add more each time. (First is $67 + 2$, Second is $167 + 3$) If 42 $(6 \times 7)$ appears inside the number, you get a speed boost.
